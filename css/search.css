@@ -1,0 +1,25 @@
+
+
+body {
+
+    background-color: gold;
+    height: 100vh;
+    display :flex;
+    display: flex;
+    justify-content: center; /*Centers items on the line (if they are in a row)*/
+
+    }
+
+     .search {
+
+
+        height: 200px;
+        width: 200px;
+
+
+        : blue;
+
+
+     }
+
+     
