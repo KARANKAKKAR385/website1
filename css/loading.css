@@ -10,7 +10,7 @@ body {
 
 .loading-text {
     font-size: 50px;
-    font-family: "Kode Mono", monospace;
+    font-family: "Paprika", monospace;
     color: white;
     opacity: 1;
 }
@@ -23,6 +23,5 @@ body {
     background-image:url("images/Sun.jpg");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-    filter: blur(px);
+    filter: blur(0px);
 }
