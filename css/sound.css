@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Black+Ops+One&display=swap');
+
+body {
+    background-color: rgb(0,0,0);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.btn {
+    background-color: green;
+    fontsize: 1.2rem;
+    padding: 1.5rem 3rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: "Black Ops One", sans-serif;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
