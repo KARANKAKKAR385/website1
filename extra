@@ -1,0 +1,275 @@
+
+body {
+
+    height: 100vh;
+    dislpay: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Namdhinggo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+}
+.loading-text {
+
+    font-size: 50px;
+}
+
+
+
+body {
+
+    height: 100vh;
+    dislpay: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Namdhinggo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+}
+.loading-text {
+
+    font-size: 50px;
+}
+
+
+
+
+<!DOCTYPE HTML>
+<html lang = "en" >
+
+<head>
+
+    <title>Loading</title>
+</head>
+
+<body>
+    <div class = "bg"><</div>
+</body>
+</html>
+New:
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Loading</title>
+        <link rel="stylesheet" href="css/loading.css">
+    </head>
+
+    <body>
+        <div class="bg"></div>
+        <div class="loading-text">0%</div>
+    </body>
+
+    <script src="js/loading.js"></script>
+</html>
+
+
+<!DOCTYPE HTML>
+<html lang = "en" >
+
+<head>
+
+    <title>Loading</title>
+</head>
+
+<body>
+    <div class = "bg"><</div>
+</body>
+</html>
+New:
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Loading</title>
+        <link rel="stylesheet" href="css/loading.css">
+    </head>
+
+    <body>
+        <div class="bg"></div>
+        <div class="loading-text">0%</div>
+    </body>
+
+    <script src="js/loading.js"></script>
+</html>
+
+
+loadText = document.querySelector('.loading-text');
+bg = document.querySelector('.bg')
+load = 90
+
+loadText.innerText = `${load}%`
+loadText.style.style.opacity = 0.1
+bg.style.filter = "blur(10px)"
+}
+
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+
+<title>Website1</title>
+    </title>head
+
+    <body>
+        <h1> Welcome to Paradise </h1>h1>
+        <a href = "search.html">1.Search</a>
+        <a href = "loading.html">2.Loading</a>
+        <a href = "expanding.html">3.Expanding</a>
+        <a href = "sound.html">4.Sound</a>
+        <a href = "Navagation.html">5.Navagation</a>
+        <a href = "LandingPage.html">6.Landing Page</a>
+
+
+
+    </body>
+
+
+</head>
+
+<script src = "https://kit.fontawesome.com/c5137796648.js" crossorgin="annouymous" ></script>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+<link rel="stylesheet href="css"
+</head>
+<body>
+<nav id="navbar">
+    <div class="logo">
+        <img src="https://randomuser.me/api/portraits/men/11.jpg" alt="user"/>
+    </div>
+    <ul>
+        <li><a href= "#">Home</a></li>li>
+        <li><a href= "#">Home</a></li>li>
+        <li><a href= "#">Home</a></li>li>
+        <li><a href= "#">Home</a></li>li>
+
+        </a></li>
+
+    </ul>
+</nav>
+
+ <header>
+    <button> id="toggle" class="toggle">
+        <i class="fa fa-bars fa-2x "></i>
+        </button>
+
+        <h1>My Landing page <landing></landing></Page></h1>
+
+    </button>
+ </header>
+ <div class
+</body>
+</html>
+<ul>
+    <li> Lifetime Access </li>
+    <li> 30 day moneyback guarantee</li>
+</ul>
+
+
+
+
+<!----Modal -->
+<div class="modal-container" id="Modal ">
+    <div class="modal">
+        <button class= "close-btn" id="close"
+
+
+
+
+
+
+
+
+
+        <label for = "name">Name</label>label
+        <input type ="text" name="name" placeholder="Your name"
+        class="form input>
+    </div>
+
+
+</div>
+<div>
+    <label
+    for="password">Passsword</div>/label>
+    <input  type="password" name="password" placeholder="Enterp password"
+    class="form input">
+</div>
+<div>
+
+    <label for "password2"> Confirm Password:</label>
+    <input type="password" name="
+</div>
+
+<input type= "sumbit" value= Sumbit"
+
+
+
+</form>
+
+header  {
+
+    backround-color: var (--lightblue);
+    color: blue;
+    font-size: 130%
+    position: relative;
+    padding
+}
+
+
+
+    </label>
+
+
+
+    </div>
+
+    .container {
+        padding: 15px;
+        margin:  0 auto;
+        max-width: 100;
+    }
+
+    .modal-container{
+        position: fixed
+    }
+    .modal {
+        backround-color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 400px;
+        max-width: 100%;
+        border-radius: 5px;
+        box-shadow: 0 0 10px red(0,0,0,0.3);
+
+    }
+    .modal-header {
+        backround-color: var(--primary-color  )
+        color: white;
+        padding: 15px;
+
+
+    }
+     modal-header h3{
+        margin: 0;
+        border-bottom: 1px solid #333;
+     }
+     .modal-form div{
+        margin: 15px 0;
+
+     }
+
+    }

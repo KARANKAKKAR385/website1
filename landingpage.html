@@ -4,134 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Landing Page</title>
-<link rel="stylesheet href="css"
+    <link rel="stylesheet" href="css/landingPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-<nav id="navbar">
-    <div class="logo">
-        <img src="https://randomuser.me/api/portraits/men/11.jpg" alt="user"/>
-    </div>
-    <ul>
-        <li><a href= "#">Home</a></li>li>
-        <li><a href= "#">Home</a></li>li>
-        <li><a href= "#">Home</a></li>li>
-        <li><a href= "#">Home</a></li>li>
+    <nav id="navbar">
+        <div class="logo">
+          <img src="https://randomuser.me/api/portraits/men/11.jpg" alt="user"/
+            <!-- https://randomuser.me/api/portraits/men/2.jpg -->
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Me</a></li>
+        </ul>
+    </nav>
 
-        </a></li>
-
-    </ul>
-</nav>
-
- <header>
-    <button> id="toggle" class="toggle">
-        <i class="fa fa-bars fa-2x "></i>
+    <header>
+        <button id="toggle" class="toggle">
+            <i class="fa fa-bars fa-2x"></i>
         </button>
 
-        <h1>My Landing page <landing></landing></Page></h1>
+        <h1>My Landing Page</h1>
 
-    </button>
- </header>
- <div class
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, distinctio!</p>
+
+        <button class="cta-btn" id="open">Sign Up</button>
+    </header>
+
+    <div class="container">
+        <h2>What is this landing page about?</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique voluptatibus nobis obcaecati delectus eveniet iure, beatae impedit assumenda, consectetur itaque eius sunt necessitatibus non autem blanditiis. Recusandae voluptatum laudantium nobis.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, vero ex minima dolore cupiditate corporis voluptates placeat harum molestias architecto.</p>
+
+        <h2>Tell Me More</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ut nesciunt, enim illum vero tempora ratione voluptatibus totam doloribus, incidunt dolore doloremque, nostrum aspernatur quasi suscipit modi! Aliquam odio perferendis natus enim rerum error itaque, veritatis voluptatum voluptatibus cupiditate a!</p>
+
+        <h2>Benefits</h2>
+        <ul>
+            <li>Lifetime Access</li>
+            <li>30 Day Money Back</li>
+            <li>Tailored Customer Support</li>
+        </ul>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum debitis aspernatur perferendis numquam et nostrum excepturi necessitatibus autem blanditiis perspiciatis.</p>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h3>Sign Up</h3>
+            </div>
+            <div class="modal-content">
+                <p>Register with us to get offers, support and more</p>
+                <form class="modal-form">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter Name" class="form-input">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter Email" class="form-input">
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter Password" class="form-input">
+                    </div>
+                    <div>
+                        <label for="password2">Confirm Password</label>
+                        <input type="password" id="password2" placeholder="Confirm Password" class="form-input">
+                    </div>
+                    <input type="submit" value="Submit" class="submit-btn">
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
+<script src="js/landingPage.js"></script>
 </html>
-<ul>
-    <li> Lifetime Access </li>
-    <li> 30 day moneyback guarantee</li>
-</ul>
-
-
-
-
-<!----Modal -->
-<div class="modal-container" id="Modal ">
-    <div class="modal">
-        <button class= "close-btn" id="close"
-
-
-
-
-
-
-
-
-
-        <label for = "name">Name</label>label
-        <input type ="text" name="name" placeholder="Your name"
-        class="form input>
-    </div>
-
-
-</div>
-<div>
-    <label
-    for="password">Passsword</div>/label>
-    <input  type="password" name="password" placeholder="Enterp password"
-    class="form input">
-</div>
-<div>
-
-    <label for "password2"> Confirm Password:</label>
-    <input type="password" name="
-</div>
-
-<input type= "sumbit" value= Sumbit"
-
-
-
-</form>
-
-header  {
-
-    backround-color: var (--lightblue);
-    color: blue;
-    font-size: 130%
-    position: relative;
-    padding
-}
-
-
-
-    </label>
-
-
-
-    </div>
-
-    .container {
-        padding: 15px;
-        margin:  0 auto;
-        max-width: 100;
-    }
-
-    .modal-container{
-        position: fixed
-    }
-    .modal {
-        backround-color: white;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        width: 400px;
-        max-width: 100%;
-        border-radius: 5px;
-        box-shadow: 0 0 10px red(0,0,0,0.3);
-
-    }
-    .modal-header {
-        backround-color: var(--primary-color  )
-        color: white;
-        padding: 15px;
-
-
-    }
-     modal-header h3{
-        margin: 0;
-        border-bottom: 1px solid #333;
-     }
-     .modal-form div{
-        margin: 15px 0;
-
-     }
-     
-    }
